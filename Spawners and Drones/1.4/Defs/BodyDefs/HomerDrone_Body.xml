@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BodyDef>
+		<defName>HomerDrone</defName>
+		<label>homer</label>
+		<corePart>
+			<def>HomerMechanicalThoraxCanManipulate</def>
+			<height>Middle</height>
+			<depth>Outside</depth>
+			<parts>
+				<li>
+					<def>HomerMechanicalCore</def>
+					<coverage>0.20</coverage>
+					<groups>
+						<li>UpperHead</li>
+						<li>FullHead</li>
+					</groups>
+					<parts>
+						<li>
+							<def>HomerArtificialBrain</def>
+							<coverage>0.10</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>UpperHead</li>
+								<li>FullHead</li>
+							</groups>
+						</li>
+						<li>
+							<def>HomerSightSensor</def>
+							<customLabel>sight sensor</customLabel>
+							<coverage>0.15</coverage>
+							<groups>
+								<li>FullHead</li>
+								<li>Eyes</li>
+							</groups>
+						</li>
+						<li>
+							<def>HomerHearingSensor</def>
+							<customLabel>left hearing sensor</customLabel>
+							<coverage>0.05</coverage>
+							<groups>
+								<li>UpperHead</li>
+								<li>FullHead</li>
+							</groups>
+						</li>
+						<li>
+							<def>HomerHearingSensor</def>
+							<customLabel>right hearing sensor</customLabel>
+							<coverage>0.05</coverage>
+							<groups>
+								<li>UpperHead</li>
+								<li>FullHead</li>
+							</groups>
+						</li>
+						<li>
+							<def>HomerSmellSensor</def>
+							<coverage>0.05</coverage>
+							<groups>
+								<li>FullHead</li>
+							</groups>
+						</li>
+						<li>
+							<def>HomerGenerator</def>
+							<coverage>0.10</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+			                <def>HomerFluidReprocessor</def>
+			                <coverage>0.10</coverage>
+			                <depth>Inside</depth>
+		                </li>
+					</parts>
+				</li>
+				<li>
+					<def>HomerMechanicalShell</def>
+					<customLabel>left movement ring</customLabel>
+					<coverage>0.20</coverage>
+					<height>Middle</height>
+					<groups>
+						<li>Legs</li>
+						<li>FrontLeftLeg</li>
+					</groups>
+				</li>
+				<li>
+					<def>HomerMechanicalShell</def>
+					<customLabel>center movement ring</customLabel>
+					<coverage>0.20</coverage>
+					<height>Middle</height>
+					<groups>
+						<li>Legs</li>
+						<li>FrontLeftLeg</li>
+					</groups>
+				</li>
+				<li>
+					<def>HomerMechanicalShell</def>
+					<customLabel>right movement ring</customLabel>
+					<coverage>0.20</coverage>
+					<height>Middle</height>
+					<groups>
+						<li>Legs</li>
+						<li>FrontLeftLeg</li>
+					</groups>
+				</li>
+			</parts>
+		</corePart>
+	</BodyDef>
+</Defs>
