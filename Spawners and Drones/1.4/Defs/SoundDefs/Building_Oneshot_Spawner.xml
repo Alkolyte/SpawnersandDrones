@@ -8,12 +8,13 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Building/Drone_Spawn</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Building/Drone_Spawn</clipPath>
           </li>
         </grains>
-        <distRange>10~100</distRange>
         <volumeRange>30~30</volumeRange>
+        <distRange>10~100</distRange>
+        <pitchRange>0.5~0.9</pitchRange>
       </li>
     </subSounds>
   </SoundDef>

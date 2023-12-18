@@ -1,11 +1,9 @@
 ﻿using System;
-///using System.Collections.Generic;
-///using System.Linq; // Used in the caravan attempt
-///using System.Text;
+using System.Collections.Generic;
+using System.Text;
 using Verse;
 using UnityEngine;
 using RimWorld;
-using System.Collections.Generic;
 
 using HarmonyLib;
 
