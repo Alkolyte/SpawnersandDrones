@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SoundDef>
+    <defName>Drone_Spawn</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Building/Drone_Spawn</clipPath>
+          </li>
+        </grains>
+        <volumeRange>30~30</volumeRange>
+        <distRange>10~100</distRange>
+        <pitchRange>0.5~0.9</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>
